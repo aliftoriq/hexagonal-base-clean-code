@@ -1,0 +1,1 @@
+mockery --dir=internal/core/ports --all --output=internal/tests/mocks --outpkg=mocks

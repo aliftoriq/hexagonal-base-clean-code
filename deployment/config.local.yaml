@@ -1,0 +1,20 @@
+# Database Configuration
+database:
+  driver: postgres
+  host: localhost
+  port: 5432
+  user: hibban
+  name: local
+  path: ./internal/pkg/database/
+  migration: true
+
+# Logging Configuration
+logging:
+  level: info
+  format: text
+
+# Rate Limiter
+rate_limiter:
+  enabled: true
+  requests_per_minute: 100
+
