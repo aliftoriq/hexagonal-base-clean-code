@@ -1,3 +1,5 @@
+The newest base struture is private in company bitbucket.
+
 ### Generate Unit Test
  `mockery --all`
 
